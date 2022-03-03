@@ -1,0 +1,275 @@
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  font-size: 20px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section div div h2 {
+  color: white;
+  background-color: #592f93;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.apresentacao {
+  background: #000000;
+  flex-wrap: wrap;
+  border: none;
+}
+
+.intro {
+  justify-content: center;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.projetos {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1124px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.projetos h2 {
+  margin-top: 79px;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: center;
+}
+
+.projetos img {
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.um {
+  background: #1d1b1b;
+  height: 293px;
+  width: 258.5px;
+}
+
+.dois {
+  background: #1d1b1b;
+  height: 293px;
+  width: 258.5px;
+}
+
+.dois h2 {
+  margin-top: 88px;
+}
+
+.tres {
+  background: #1d1b1b;
+  height: 293px;
+  width: 258.5px;
+}
+
+.quatro {
+  background: #1d1b1b;
+  height: 293px;
+  width: 258.5px;
+}
+
+.quatro h2 {
+  margin-top: 88px;
+}
+
+.contrate {
+  display: flex;
+  padding: 60px calc((100% - 960px) / 2);
+  padding-top: 50px;
+}
+
+.nunito {
+  flex: 1 1 240px;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  color: #a4a4a4;
+}
+
+.nunito h2 {
+  font-size: 48px;
+}
+
+.nunito p {
+  max-width: 160px;
+}
+
+.btn {
+  margin: 0 10px;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.btn button {
+  flex: 3 1 260px;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  font-size: 2.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #592f93;
+  color: white;
+  margin: 0px;
+  cursor: pointer;
+  border: 0px;
+  padding: 15px 160px;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  background: #000000;
+  color: white;
+}
+
+.footer h3 {
+  font-size: 24px;
+  line-height: 25px;
+  color: #592f93;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.footer h3:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #592f93;
+  margin: 6px 0 10px 0;
+  margin-bottom: -10px;
+}
+
+.contato ul li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.redes ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.redes ul li a {
+  border: 3px solid #592f93;
+  display: block;
+  padding: 9px;
+}
+
+.footer-redes ul li a:hover {
+  border-color: white;
+}
+
+.copy {
+  width: 100%;
+  background: #592f93;
+  padding: 20px 0;
+}
+
+.direito p {
+  margin: 0 auto;
+  color: white;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+.container {
+  justify-content: space-between;
+  display: flex;
+  width: 1124px;
+  margin: 0 auto;
+}
+
+.historia {
+  width: 500px;
+}
+
+.historia p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 27px;
+}
+
+.nao-aparece {
+  visibility: hidden;
+  position: absolute;
+  height: 0px;
+}
+
+@media only screen and (max-width: 787px) {
+  .projetos {
+    padding: 0px 15px;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin: 0 auto;
+  }
+
+  .um {
+    margin-bottom: 30px;
+  }
+
+  .dois {
+    margin-bottom: 30px;
+  }
+
+  .tres {
+    margin-bottom: 30px;
+  }
+
+  .quatro {
+    margin-bottom: 30px;
+  }
+
+  .nunito {
+    padding-left: 10px;
+  }
+
+  .btn button {
+    padding: 10px 0px;
+  }
+
+  .container {
+    display: block;
+    padding-left: 10px;
+  }
+
+  .historia {
+    padding-top: 5px;
+  }
+
+  .historia p {
+    max-width: 400px;
+  }
+
+  .redes {
+    padding-bottom: 30px;
+  }
+}
