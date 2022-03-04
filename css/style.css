@@ -40,7 +40,7 @@ img {
 .intro {
   justify-content: center;
   display: flex;
-  padding-top: 50px;
+  padding-top: 35px;
   padding-bottom: 30px;
 }
 
@@ -49,11 +49,11 @@ img {
   justify-content: space-between;
   max-width: 1124px;
   margin: 0 auto;
-  padding-bottom: 50px;
+  padding-bottom: 35px;
 }
 
 .projetos h2 {
-  margin-top: 79px;
+  margin-top: 45px;
   text-transform: uppercase;
   font-size: 18px;
   padding-top: 7px;
@@ -63,12 +63,12 @@ img {
 
 .projetos img {
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .um {
   background: #1d1b1b;
-  height: 293px;
+  height: 258.5px;
   width: 258.5px;
 }
 
@@ -84,7 +84,7 @@ img {
 
 .tres {
   background: #1d1b1b;
-  height: 293px;
+  height: 258.5px;
   width: 258.5px;
 }
 
@@ -225,27 +225,64 @@ img {
 }
 
 @media only screen and (max-width: 787px) {
+  .intro {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
   .projetos {
     padding: 0px 15px;
     justify-content: space-around;
     flex-flow: row wrap;
     margin: 0 auto;
+    max-width: 100%;
   }
 
+  .projetos img {
+    margin-top: 32px;
+  }
+
+  .projetos h2 {
+    margin-top: 20px;
+  }
   .um {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 200px;
   }
 
   .dois {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 200px;
+  }
+
+  .dois h2 {
+    margin-top: 25px;
+  }
+
+  .dois img {
+    padding-top: 4px;
   }
 
   .tres {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 200px;
   }
 
   .quatro {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 200px;
+  }
+
+  .quatro h2 {
+    margin-top: 25px;
+  }
+
+  .quatro img {
+    padding-top: 4px;
   }
 
   .nunito {
@@ -259,9 +296,11 @@ img {
   .container {
     display: block;
     padding-left: 10px;
+    width: 100%;
   }
 
   .historia {
+    width: 100%;
     padding-top: 5px;
   }
 
